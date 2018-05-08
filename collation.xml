@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader type="aacr2">
+<fileDesc>
+<titleStmt>
+<title type="t245">Turn About
+</title>
+<title type="gmd">[electronic resource]
+</title>
+<author>Faulkner, William
+</author>
+<editor>Ruotolo, Christine
+</editor>
+<respStmt>
+<resp>Creation of machine-readable version:
+</resp>
+<name>Christine Ruotolo
+</name>
+</respStmt>
+<respStmt>
+<resp>Conversion to TEI.2-conformant markup:
+</resp>
+<name>Christine Ruotolo
+</name>
+</respStmt>
+</titleStmt>
+<extent>ca. 65 kilobytes
+</extent>
+<publicationStmt>
+<publisher>University of Virginia Library
+</publisher>
+<pubPlace>Charlottesville, Virginia
+</pubPlace>
+<idno type="ETC">
+</idno>
+<availability>
+<p>Restricted
+</p>
+<p n="restricted">URL: http://etext.lib.virginia.edu/faulkner
+</p>
+<p>copyright 2000, by the Rector and Visitors of the University of Virginia
+</p>
+</availability>
+<date>2000
+</date>
+</publicationStmt>
+<seriesStmt>
+<p>
+</p>
+</seriesStmt>
+<notesStmt>
+<note>Illustrations have been included from the print version.
+</note>
+</notesStmt>
+<sourceDesc>
+<biblFull>
+<titleStmt>
+<title>Turn About
+</title>
+<title type="parallel">
+</title>
+<title level="m">
+</title>
+<author>William Faulkner
+</author>
+<editor>
+</editor>
+<respStmt>
+<resp>
+</resp>
+<name>
+</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<p>
+</p>
+</editionStmt>
+<extent>
+</extent>
+<publicationStmt>
+<publisher>
+</publisher>
+<pubPlace>
+</pubPlace>
+<date>
+</date>
+<idno type="callNo">Print copy consulted:
+</idno>
+</publicationStmt>
+<seriesStmt>
+<p>
+</p>
+</seriesStmt>
+<notesStmt>
+<note>
+</note>
+</notesStmt>
+</biblFull>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>Prepared for the University of Virginia Library Electronic Text Center.
+</p>
+</projectDesc>
+<editorialDecl>
+<p>All unambiguous end-of-line hyphens have been removed, and the  trailing    part of a word has been joined to the preceding line.
+</p>
+<p>Some keywords in the header are a local Electronic Text Center    scheme  to aid in establishing analytical groupings.
+</p>
+</editorialDecl>
+<refsDecl>
+<p>
+</p>
+</refsDecl>
+<classDecl>
+<taxonomy>
+<bibl>
+<title>Library of Congress Subject Headings
+</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<date>
+</date>
+</creation>
+<langUsage>
+<language ident="en">
+</language>
+</langUsage>
+<textClass>
+<keywords>
+<term>fiction
+</term>
+<term>prose
+</term>
+<term>masculine
+</term>
+<term>Special Collections
+</term>
+</keywords>
+<keywords scheme="LCSH">
+<term>LCSH
+</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<list>
+<item>
+<date></date> Christine Ruotolo</item>
+<item>
+<date when="2017-05-08">8 May 2017</date> Christine Ruotolo converted to P5</item>
+</list>
+</change>
+</revisionDesc>
+</teiHeader>
+
+
+<text xml:id="FauTurn">
+<body>
+<div1 type="section" n="1">
+<head><app><lem wit="printed"></lem><rdg wit="ms">I</rdg></app></head>
+<p n="1.1"><app><lem wit="printed">THE</lem><rdg wit="ms">The</rdg></app> American<app><lem wit="printed">--the older one--</lem><rdg wit="ms">, the older one, </rdg></app>wore no pink Bedfords. His breeches were of plain whipcord, like the tunic. And
+the tunic had no <app><lem wit="printed">long London-cut</lem><rdg wit="ms">long, London made</rdg></app> skirts, so that below the Sam Browne <app><lem wit="printed">the tail of it</lem><rdg wit="ms">the skirts</rdg></app> stuck <app><lem wit="printed">straight out</lem><rdg wit="ms">straight out behind</rdg></app> like
+<app><lem wit="printed">the tunic of a military policeman beneath his holster belt.</lem><rdg wit="ms">that of an m.p.</rdg></app> And he wore simple <app><lem wit="first-ed">puttees</lem><rdg wit="reader">puttees</rdg><rdg wit="SEP">putties</rdg><rdg wit="ms">puttes</rdg></app> and the easy shoes of a man of <app><lem wit="printed">middle age,</lem><rdg wit="ms">45; <del>an </del></rdg></app>
+instead of Savile Row boots, and the <app><lem wit="first-ed">shoes and the puttees</lem><rdg wit="reader">shoes and the puttees</rdg><rdg wit="SEP">shoes and the putties</rdg><rdg wit="ms">boots and putts</rdg></app>
+did not match <app><lem wit="printed">in shade,</lem><rdg wit="ms"><unclear>either</unclear> of them;</rdg></app> and the ordnance belt did not match <app><lem wit="printed">either of
+them,</lem><rdg wit="ms">either of
+them;</rdg></app> and the pilot's wings on his breast were just wings. But the ribbon beneath them was a good ribbon,
+and the <app><lem wit="printed">insigne</lem><rdg wit="ms">insignia</rdg></app> on his <app><lem wit="printed">shoulders were</lem><rdg wit="ms">shoulders was</rdg></app> the twin bars of a captain. He was not tall. His face was thin, a little
+aquiline; the eyes <app><lem wit="printed">intelligent</lem><rdg wit="ms">were intelligent</rdg></app> and <app><lem wit="printed">a little tired</lem><rdg wit="ms"><unclear>lined long</unclear></rdg></app>. He was past <app><lem wit="printed">twenty-five</lem><rdg wit="ms">25</rdg></app>; <app><lem wit="printed">looking at him,</lem><rdg wit="ms">looking at him</rdg></app> one thought, not Phi
+Beta Kappa exactly, but Skull and Bones perhaps, or <app><lem wit="printed">possibly</lem><rdg wit="ms"><unclear>probably</unclear></rdg></app> a Rhodes scholarship.
+
+</p><p n="1.2">One of the men who faced him <app><lem wit="printed">very probably</lem><rdg wit="ms">probably</rdg></app> could not <app><lem wit="printed">see him</lem><rdg wit="ms">see clearly</rdg></app> at all. He was being held on his feet by an American
+<app><lem wit="printed">military policeman.</lem><rdg wit="ms">m.p.</rdg></app> He was quite <app><lem wit="printed">drunk,</lem><rdg wit="ms">drunk:</rdg></app> and <add>in contrast with the <app><lem wit="printed">heavy-jawed policeman</lem><rdg wit="ms">heavy jawed m.p.</rdg></app> who 
+<app><lem wit="printed">held him erect</lem><rdg wit="ms">held him</rdg></app> on his long, slim, boneless legs,</add> he looked like a masquerading girl. He was possibly <app><lem wit="printed">eighteen</lem><rdg wit="ms">18</rdg></app>, tall,
+with a pink-and-white face and blue <app><lem wit="printed">eyes,</lem><rdg wit="ms">eyes</rdg></app> <app><lem wit="first-ed">and a mouth</lem><rdg wit="reader">and a mouth</rdg><rdg wit="SEP">and a little dull gold mustache above a mouth</rdg><rdg wit="ms">and a little dull gold mustache above a mouth</rdg></app> like a girl's mouth. He wore a <app><lem wit="printed">pea-coat</lem><rdg wit="ms">peacoat</rdg></app>, 
+buttoned awry and stained with recent mud, and <app><lem wit="printed">upon</lem><rdg wit="ms"><del>raked</del> upon</rdg></app> his blond <app><lem wit="printed">head,</lem><rdg wit="ms">head</rdg></app> at that unmistakable and rakish
+swagger which no other people can ever <app><lem wit="printed">approach or imitate</lem><rdg wit="ms">approach</rdg></app>, <app><lem wit="printed">the cap of a</lem><rdg wit="ms"><del>a</del><add place="overstrike">the</add> cap of the</rdg></app> <app><lem wit="printed">Royal Naval</lem><rdg wit="ms">British naval</rdg></app> <app><lem wit="first-ed">Officer.</lem><rdg wit="reader">Officer.</rdg><rdg wit="SEP">officer.</rdg><rdg wit="ms">officer.</rdg></app>
+
+</p><p n="1.3">"What's this, <app><lem wit="printed">corporal?"</lem><rdg wit="ms">Corporal?"</rdg></app> the American captain said. "What's the trouble? He's an Englishman. You'd better let <app><lem wit="printed">their M. P.'s</lem><rdg wit="ms">their own m.p.s</rdg></app> <app><lem wit="printed">take care of
+him."</lem><rdg wit="ms">have him."</rdg></app>
+
+</p><p n="1.4">"I know he is," the <app><lem wit="printed">policeman</lem><rdg wit="ms">m.p.</rdg></app> said. He spoke <app><lem wit="printed">heavily, breathing heavily,</lem><rdg wit="ms">heavily,</rdg></app> in the voice of a
+man <app><lem wit="printed">under physical</lem><rdg wit="ms">under a physical</rdg></app> strain; <app><lem wit="printed">for all his girlish delicacy</lem><rdg wit="ms">in all his <del>de</del> long, girllike delicacy</rdg></app> of limb, the English boy <app><lem wit="printed">was heavier--or more
+helpless--than he looked.</lem><rdg wit="ms">must have been heavy.</rdg></app> "Stand up!" the <app><lem wit="printed">policeman</lem><rdg wit="ms">m.p.</rdg></app> said. <app><lem wit="printed">"They're officers!"</lem><rdg wit="ms">"Here's a couple of officers!"</rdg></app>
+
+</p><p n="1.5">The English boy made an effort then. He pulled himself together, focusing his eyes. He 
+<app><lem wit="first-ed">swayed, throwing his arms</lem><rdg wit="reader">swayed, throwing his arms</rdg><rdg wit="SEP">swayed, throwing his arm</rdg><rdg wit="ms">threw his arm</rdg></app> about the <app><lem wit="printed">policeman's neck, and</lem><rdg wit="ms">m.p.'s neck and, <unclear>momentarily</unclear> erect,</rdg></app> with the
+other hand he saluted, his hand flicking, fingers curled a little, to his right ear, already swaying again and
+catching himself <app><lem wit="first-ed">again. "Cheer-o,</lem><rdg wit="reader">again. "Cheer-o,</rdg><rdg wit="SEP">again. "Cheerio,</rdg><rdg wit="ms">again. <add>Erect, he was as tall as anyone there, as tall as the second American.</add> "Cheer-o,</rdg></app> sir," he said. "Name's not Beatty, I hope."
+
+</p><p n="1.6">"No," the captain said.
+
+</p><p n="1.7">"Ah," the English boy said. "Hoped not. My mistake. No offense, <app><lem wit="printed">what?"</lem><rdg wit="ms">eh?</rdg></app>
+
+</p><p n="1.8">"No offense," the captain said quietly. But he was looking at the <app><lem wit="printed">policeman.</lem><rdg wit="ms">m.p.</rdg></app> The second American spoke. He
+was a lieutenant, also a pilot. But he was not <app><lem wit="printed">twenty-five</lem><rdg wit="ms">25</rdg></app> and he wore the pink breeches, the London boots,
+and his tunic might have been a British tunic save for the collar.
+
+</p><p n="1.9"><app><lem wit="printed">"It's one</lem><rdg wit="ms">"It's just <unclear>another</unclear></rdg></app> of those <app><lem wit="printed">navy eggs,"</lem><rdg wit="ms">naval eggs,"</rdg></app> he said. "They pick them out of the gutters here all night long. You <app><lem wit="printed">don't</lem><rdg wit="ms">dont</rdg></app> come to town often
+enough."
+
+</p><p n="1.10">"Oh," the captain said. "I've heard about them. I remember now." <add>He also <app><lem wit="printed">remarked now</lem><rdg wit="ms">remarked <add>then</add></rdg></app>
+that, though the street was a <app><lem wit="printed">busy one--it was just outside a popular café</lem><rdg wit="ms">public one, just outside a cafe;</rdg></app>--and there were <app><lem wit="printed">many
+passers, soldier, civilian, women,</lem><rdg wit="ms">were lots of passers, soldiers, <unclear>natives</unclear>,</rdg></app> yet none of them so much as <app><lem wit="printed">paused, as though it were a familiar sight.</lem><rdg wit="ms"><del>stopped to</del> paused in passing. 'Maybe this is the way the navy <unclear>fights</unclear>,' he <unclear>thought</unclear>. 'In <unclear>Bretagne</unclear>, anyway.' But the boy was so young. It was like [] a child in a <unclear>crowd</unclear>.</rdg></app></add>
+He was looking at the <app><lem wit="printed">policeman. "Can't</lem><rdg wit="ms">m.p. "Cant</rdg></app> you take him to his ship?"
+
+</p><p n="1.11"><app><lem wit="printed">"I thought of that before the captain did," the policeman said.</lem><rdg wit="ms">"I thought of that, sir," the m.p. said.</rdg></app> "He says he <app><lem wit="printed">can't</lem><rdg wit="ms">cant</rdg></app> go <app><lem wit="printed">aboard his ship</lem><rdg wit="ms">aboard</rdg></app> after <app><lem wit="printed">dark because</lem><rdg wit="ms">dark, because</rdg></app> <app><lem wit="printed">he puts the ship
+away at sundown."
+</lem><rdg wit="ms">the ship is <del>locked up</del> <add>put away in the night</add>." </rdg></app>
+</p><p n="1.12"><app><lem wit="SEP">"Puts it away?"</lem><rdg wit="reader">"Puts it away?"</rdg><rdg wit="first-ed">"Puts it 
+way?"</rdg><rdg wit="ms"><del>"Locked up?"</del> <add>"Put away in the night?"</add></rdg></app>
+
+</p><p n="1.13">"Stand up, sailor!" <app><lem wit="printed">the policeman said savagely, jerking at his lax burden.</lem><rdg wit="ms">the m.p. said.</rdg></app>
+<app><lem wit="printed">"Maybe the captain</lem><rdg wit="ms">"Maybe you</rdg></app> can make sense out of it. <app><lem wit="printed">Damned if I can. He</lem><rdg wit="ms">He</rdg></app> says they keep the boat <app><lem wit="printed">under the wharf.
+Run it under the wharf at night,</lem><rdg wit="ms">under the mole <add>at night</add></rdg></app> and that they can't get it out again until the tide goes out tomorrow."
+
+
+</p><p n="1.14">"Under the <app><lem wit="printed">wharf?</lem><rdg wit="ms">mole?</rdg></app> A boat? <app><lem wit="printed">What is this?"</lem><rdg wit="ms">What does he do?"</rdg></app> He was now <app><lem wit="printed">speaking to the lieutenant.</lem><rdg wit="ms">looking to the <del>lieu</del> other American.</rdg></app> <app><lem wit="printed">"Do they
+operate</lem><rdg wit="ms">"--does he operate</rdg></app> some kind of aquatic <app><lem wit="printed">motorcycles?"</lem><rdg wit="ms">motorcycle?"</rdg></app>
+
+</p><p n="1.15">"Something like that," the lieutenant said. "You've seen <app><lem wit="printed">them--the</lem><rdg wit="ms">them, the</rdg></app> boats. Launches, <app><lem wit="printed">camouflaged and all.</lem><rdg wit="ms">painted with camouflage.</rdg></app> <app><lem wit="printed">Dashing up and down the harbor. You've seen them.
+They do that all day and sleep in the gutters here all night."
+</lem><rdg wit="ms">See them now and then dashing in and out of the harbor."</rdg></app>
+</p><p n="1.16">"Oh," the captain said. <app><lem wit="printed">"I thought those boats were ship commanders' launches. You mean to tell me they use officers just to-- "</lem><rdg wit="ms">"They're just captains' launches, aren't they? You dont mean that officers--"</rdg></app>
+
+</p><p n="1.17">"I don't know," the lieutenant said. "Maybe they use them to fetch <app><lem wit="printed">hot water from one ship to another. Or buns.</lem><rdg wit="ms">hot water or buns from one ship to another.</rdg></app> Or
+maybe to go <app><lem wit="printed">back and forth fast when they forget</lem><rdg wit="ms">back and get the</rdg></app> napkins or something."
+
+</p><p n="1.18"><app><lem wit="printed">"Nonsense,"</lem><rdg wit="ms">"Oh, come on,"</rdg></app> the captain said. He looked at the English boy again.
+
+</p><p n="1.19">"That's what they do," the lieutenant said. <app><lem wit="printed">"Town's</lem><rdg wit="ms">"The town is</rdg></app> lousy
+with them <app><lem wit="printed">all night long.</lem><rdg wit="ms">all night.</rdg></app> Gutters full, 
+<app><lem wit="first-ed">and their M. P.'s</lem><rdg wit="reader">and their M. P.'s</rdg><rdg wit="SEP">and their M.P.'s</rdg><rdg wit="ms">their m.p.s</rdg></app> carting them away in <app><lem wit="printed">batches,</lem><rdg wit="ms">batches</rdg></app> like nursemaids in a park. <app><lem wit="printed">Maybe the
+French give them the launches to get them out of the gutters during the day."</lem><rdg wit="ms">One of their m.p.'s told me what they call these boats. Like he thought that when I heard the name I would know what the boats did. Maybe they built the boats specially to give the guys something to do in the daytime, keeping the gutters clean during the day."</rdg></app>
+
+</p><p n="1.20"><app><lem wit="printed">"Oh," the captain said, "I see."</lem><rdg wit="ms">"I see," the captain said.</rdg></app> But it was clear that he didn't see, wasn't listening, <app><lem wit="printed">didn't believe</lem><rdg wit="ms">and didn't believe</rdg></app> what he did hear. He looked
+at the English boy. "Well, you can't leave him here in that <app><lem wit="printed">shape," he said.</lem><rdg wit="ms">shape."</rdg></app>
+
+</p><p n="1.21">Again the English boy <app><lem wit="printed">tried to pull himself together.</lem><rdg wit="ms">was trying to hold himself erect.</rdg></app> "Quite all right, 'sure you," he said glassily, his voice pleasant, cheerful
+almost, quite courteous. <app><lem wit="printed">"Used</lem><rdg wit="ms">'Used</rdg></app> to it. Confounded rough <app><lem wit="printed"><hi>pavé</hi>, though.</lem><rdg wit="ms">pavé.</rdg></app> Should force French
+do something about it. Visiting lads jolly well <app><lem wit="printed">deserve</lem><rdg wit="ms">should have</rdg></app> decent field to play on, what?"
+
+</p><p n="1.22">"And he was jolly well <app><lem wit="printed">using all of it too," the policeman said savagely.</lem><rdg wit="ms">using it all, too," the m.p. said.</rdg></app> <app><lem wit="printed">"He must think</lem><rdg wit="ms">'He thinks</rdg></app> he's a one-man team,
+<app><lem wit="printed">maybe."
+</lem><rdg wit="ms">maybe." [no new ¶]</rdg></app>
+</p><p n="1.23">At that moment a <app><lem wit="printed">fifth</lem><rdg wit="ms">5th</rdg></app> man came up. He was a British <app><lem wit="printed">military policeman.</lem><rdg wit="ms">m.p. [new ¶]</rdg></app> <app><lem wit="printed">"Nah then," he
+said. "What's this? What's this?"</lem><rdg wit="ms">"What's this?" he said. "What's this?"</rdg></app> Then he saw the <app><lem wit="printed">Americans'</lem><rdg wit="ms">American's</rdg></app> shoulder <app><lem wit="printed">bars.</lem><rdg wit="ms">stripes.</rdg></app> He saluted. <app><lem wit="printed">At the sound of his
+voice the English</lem><rdg wit="ms">The English</rdg></app> boy <app><lem wit="printed">turned,</lem><rdg wit="ms">had turned,</rdg></app> swaying, peering.
+
+</p><p n="1.24">"Oh, hullo, Albert," he said.
+
+</p><p n="1.25">"Nah then, Mr. Hope," the <app><lem wit="printed">British policeman</lem><rdg wit="ms">m.p.</rdg></app> said. <app><lem wit="printed">He said</lem><rdg wit="ms">He spoke</rdg></app> to the American <app><lem wit="printed">policeman,</lem><rdg wit="ms">m.p.,</rdg></app> over his <app><lem wit="printed">shoulder:</lem><rdg wit="ms">shoulder.</rdg></app> "What is it
+this time?"
+
+</p><p n="1.26">"Likely nothing," the <app><lem wit="printed">American said. "The way you guys run a war.</lem><rdg wit="ms">American m.p. said, in your <unclear>sort</unclear> of war.</rdg></app> But <app><lem wit="printed">I'm</lem><rdg wit="ms">I am</rdg></app> a stranger
+here. Here. Take him."                       
+
+</p><p n="1.27">"What <app><lem wit="printed">is this,</lem><rdg wit="ms">was it,</rdg></app> corporal?" the captain <app><lem wit="printed">said. "What was he doing?"</lem><rdg wit="ms">said.</rdg></app>
+
+</p><p n="1.28">"He won't call it nothing," the <app><lem wit="printed">American policeman said, jerking</lem><rdg wit="ms">m.p. said, <unclear>pointing</unclear></rdg></app> his head at the British <app><lem wit="printed">policeman.</lem><rdg wit="ms">m.p.</rdg></app> <app><lem wit="printed">"He'll just call it a thrush or a robin or something. I turn</lem><rdg wit="ms"><del>"I am just <unclear>coming</unclear> <unclear>down</unclear> the street here and I find it blocked with a</del> "I turn</rdg></app> into this
+street about <app><lem wit="printed">three</lem><rdg wit="ms">3</rdg></app> blocks <app><lem wit="printed">back a while ago, and</lem><rdg wit="ms">back and</rdg></app> I find it blocked with a line of <app><lem wit="printed">trucks going up from the
+docks, and</lem><rdg wit="ms">trucks and</rdg></app> the drivers all hollering <app><lem wit="printed">ahead what the hell the</lem><rdg wit="ms">ahead to the next one to see what the</rdg></app> trouble is.   So I come <app><lem wit="printed">on, and</lem><rdg wit="ms">on and</rdg></app> I <app><lem wit="printed">find it is about</lem><rdg wit="ms">find about</rdg></app>
+<app><lem wit="printed">three</lem><rdg wit="ms">3</rdg></app> blocks of <app><lem wit="printed">them, blocking the cross streets too; and</lem><rdg wit="ms">them and then</rdg></app> I <app><lem wit="printed">come on to</lem><rdg wit="ms">come to</rdg></app> the head of <app><lem wit="printed">it where the trouble is,
+and</lem><rdg wit="ms">it and</rdg></app> I find about a dozen of the drivers out in front, <app><lem wit="printed">holding a caucus or something in the middle of the
+street, and</lem><rdg wit="ms">looking at something and</rdg></app> I come up and I say, 'What's going on here?' and they leave me through and I find this egg here
+laying-- "
+
+</p><p n="1.29">"Yer talking about one of His Majesty's officers, my man," the British <app><lem wit="printed">policeman</lem><rdg wit="ms">m.p.</rdg></app>
+said.
+
+</p><p n="1.30">"Watch yourself, corporal," the captain <app><lem wit="printed">said. "And</lem><rdg wit="ms">said.  ¶ "If the captain says so," the m.p. said, <unclear></unclear>. ¶
+"Yes. And
+</rdg></app> you found this <app><lem wit="printed">officer-- "</lem><rdg wit="ms">him--?"</rdg></app>
+
+</p><p n="1.31">"He <app><lem wit="printed">had done gone</lem><rdg wit="ms">had gone</rdg></app> to <app><lem wit="printed">bed in</lem><rdg wit="ms">bed, in</rdg></app> the middle of the <app><lem wit="printed">street, with an empty basket for a pillow. Laying there with his hands
+under his head and his knees crossed, arguing</lem><rdg wit="ms">street He had some kind of an empty basket under his head, and he was laying there on his back, with his hands under his head, arguing</rdg></app> with <app><lem wit="printed">them about</lem><rdg wit="ms">them drivers about</rdg></app> whether he ought to <app><lem wit="printed">get up and move</lem><rdg wit="ms">move</rdg></app> or not. 
+ <app><lem wit="printed">He said</lem><rdg wit="ms">Because he said</rdg></app> that the <app><lem wit="printed">trucks could turn</lem><rdg wit="ms">drivers <del>could go</del> turn</rdg></app> back and go around by another street, but that he couldn't use any other
+<app><lem wit="printed">street, because</lem><rdg wit="ms">street but this one because</rdg></app> this street was his."
+
+</p><p n="1.32"><app><lem wit="printed">"His street?"</lem><rdg wit="ms">"His?"</rdg></app>
+
+</p><p n="1.33"><app><lem wit="printed">The English boy had listened, interested, pleasant. "Billet,</lem><rdg wit="ms">"Billet,"</rdg></app> you see," <app><lem wit="printed">he said.</lem><rdg wit="ms">the English boy said.</rdg></app> "Must have order, even in war emergency. Billet by lot. This street
+mine; no poaching, eh? Next street Jamie <app><lem wit="printed">Wutherspoon's. But trucks can go by that street</lem><rdg wit="ms">Wutherspoon's, but street open</rdg></app> because Jamie
+not <app><lem wit="printed">using it yet. Not in bed yet.</lem><rdg wit="ms">in bed yet.</rdg></app> <del>Knew so.</del> Insomnia. Knew so. Told them. <del>See now?</del> Trucks go that way. See
+now?"
+
+</p><p n="1.34">"Was that it, corporal?" the captain said.
+
+</p><p n="1.35">"He told you. He wouldn't get up. He just laid there, arguing with them. He was <app><lem wit="printed">telling</lem><rdg wit="ms">trying to get</rdg></app> one of them to go somewhere and <app><lem wit="printed">bring back a copy of</lem><rdg wit="ms">fetch</rdg></app> their
+articles of <app><lem wit="printed">war-- "</lem><rdg wit="ms">war--</rdg></app>
+
+</p><p n="1.36"><app><lem wit="printed">"King's Regulations; yes," the captain said.</lem><rdg wit="ms">"K.R.&amp;O.," the captain said. "Yes."</rdg></app>
+
+</p><p n="1.37">"--and see if <app><lem wit="printed">the book</lem><rdg wit="ms">it</rdg></app> said whether he had the right of <app><lem wit="printed">way, or the trucks.</lem><rdg wit="ms">way or the trucks did.</rdg></app> And then I got him <app><lem wit="printed">up, and</lem><rdg wit="ms">up and</rdg></app> then the captain <app><lem wit="printed">come</lem><rdg wit="ms"><unclear>came</unclear></rdg></app> along.
+And that's all. And with the captain's permission <app><lem wit="printed">I'll</lem><rdg wit="ms">I will</rdg></app> now <app><lem wit="printed">hand him</lem><rdg wit="ms">turn his Majesty's officer</rdg></app> over to <app><lem wit="printed">His Majesty's wet nur--"</lem><rdg wit="ms">his Majesty's wet nurse to--"</rdg></app>
+
+</p><p n="1.38">"That'll do, corporal," the captain said. "You can go. I'll see to this." The <app><lem wit="printed">policeman</lem><rdg wit="ms">m.p.</rdg></app> saluted and
+<app><lem wit="printed">went on.</lem><rdg wit="ms">turned. He went on.</rdg></app> 
+<app><lem wit="printed">The British policeman was now 
+supporting the English boy.</lem><rdg wit="ms">The English 
+boy had pulled himself 
+together a little now. But he was not yet in a responsible 
+state.</rdg></app> 
+<app><lem wit="first-ed">"Can't you take him home?"</lem><rdg wit="SEP">"Can't you take him home?"</rdg><rdg wit="reader">"Can't you take him?"</rdg><rdg wit="ms">"Can you 
+take him home?"</rdg></app> 
+<app><lem wit="printed">the captain said.</lem><rdg wit="ms">the 
+captain said to the m.p.</rdg></app> "Where are their quarters?"
+
+</p><p n="1.39">"I <app><lem wit="printed">don't</lem><rdg wit="ms">dont</rdg></app> rightly know, <app><lem wit="printed">sir,</lem><rdg wit="ms">Sir,</rdg></app> if they have quarters or not.
+We--I usually see them about the pubs until daylight. They don't seem to use quarters."
+
+</p><p n="1.40">"You mean, <app><lem wit="printed">they really aren't off of ships?"</lem><rdg wit="ms">not even on the ships?"</rdg></app>
+
+</p><p n="1.41">"Well, <app><lem wit="printed">sir, they might be ships, in a manner of speaking. But
+a man</lem><rdg wit="ms">Sir, a man</rdg></app> would <app><lem wit="printed">have</lem><rdg wit="ms">need</rdg></app> to be a bit sleepier than him to sleep in one of <app><lem wit="printed">them."</lem><rdg wit="ms">them ships."</rdg></app>
+
+</p><p n="1.42"><app><lem wit="printed">"I see," the captain said.</lem><rdg wit="ms">"One of what ships?"</rdg></app> He looked at the <app><lem wit="printed">policeman.</lem><rdg wit="ms">m.p.</rdg></app> "What kind of boats are they?"
+
+</p><p n="1.43">This time the <app><lem wit="printed">policeman's</lem><rdg wit="ms">m.p.'s</rdg></app> voice was <app><lem wit="printed">immediate, final</lem><rdg wit="ms">immediate and <del>completely</del> final</rdg></app> and completely inflectionless. It was like a closed door. "I don't rightly know,
+<app><lem wit="printed">sir."</lem><rdg wit="ms">Sir."</rdg></app>
+
+</p><p n="1.44">"Oh," the captain said. "Quite. Well, he's <del>no</del> in no shape to stay about pubs until <app><lem wit="printed">daylight this
+time."
+</lem><rdg wit="ms">daylight."</rdg></app>
+</p><p n="1.45">"Perhaps <app><lem wit="printed">I can</lem><rdg wit="ms">I could</rdg></app> find him a bit of a <app>
+<lem wit="printed">pub with a back table, where he can sleep," the policeman said.</lem>
+<rdg wit="ms">quiet <unclear></unclear>, with a back table to sleep on," the m.p. said.</rdg>
+</app> 
+But the captain was not listening. 
+<app>
+<lem wit="printed">He was</lem>
+<rdg wit="ms">He had turned and was</rdg>
+</app> looking across the <app><lem wit="printed">street, where the lights of another
+café fell across the pavement.</lem><rdg wit="ms">street.</rdg></app> The English boy yawned <app><lem wit="printed">terrifically,</lem><rdg wit="ms"><unclear></unclear>,</rdg></app> like a child does, his mouth
+pink and <app><lem wit="printed">frankly gaped</lem><rdg wit="ms"><unclear></unclear></rdg></app> as a child's.
+
+</p><p n="1.46"><app><lem wit="printed">The captain turned </lem><rdg wit="ms">¶ "Must get bit of sleep," he said. "Must be <unclear>after</unclear> sundown. May see <unclear></unclear> after sundown without bit of sleep." ¶ The captain was not listening to him, either. He turned</rdg></app> to <app><lem wit="printed">the policeman:</lem><rdg wit="ms">the m.p. [no ¶]</rdg></app>
+
+</p><p n="1.47">"Would you mind stepping across <app><lem wit="printed">there and asking for</lem><rdg wit="ms">to that cafe <unclear>yourself</unclear> and <unclear>calling</unclear> in</rdg></app> Captain Bogard's <app><lem wit="printed">driver?</lem><rdg wit="ms">car?</rdg></app> I'll take care of Mr. Hope."
+
+</p><p n="1.48">The <app><lem wit="printed">policeman</lem><rdg wit="ms">m.p.</rdg></app> departed. The captain now supported the English <app><lem wit="printed">boy, his hand beneath the other's arm.</lem><rdg wit="ms">boy's arm.</rdg></app> <app><lem wit="printed">Again
+the boy yawned like a weary child.</lem><rdg wit="ms">The boy <unclear>swayed</unclear>, again he yawned, like a <unclear></unclear> child. Again he swayed.</rdg></app> "Steady," the captain said. <app><lem wit="printed">"The car will be here in a
+minute."</lem><rdg wit="ms">It <unclear></unclear> to <unclear></unclear> a minute."</rdg></app>
+
+</p><p n="1.49">"Right," the 
+<app><lem wit="printed">English boy</lem><rdg wit="ms"><unclear></unclear></rdg></app> said through the yawn.</p>
+
+</div1>
+<div1 type="section" n="2">
+<head>II</head>
+
+<p n="2.1">Once in the car, he went to sleep immediately with the peaceful suddenness of babies, sitting between the two
+Americans. But though the aerodrome was only thirty minutes away, he was awake when they arrived,
+apparently quite fresh, and asking for whisky. When they entered the mess he appeared quite sober, only
+blinking a little in the lighted room, in his raked cap and his awry-buttoned pea-jacket and a soiled silk
+muffler, embroidered with a club insignia which Bogard recognized to have come from a famous
+preparatory school, twisted about his throat.
+
+</p><p n="2.2">"Ah," he said, his voice fresh, clear now, not blurred, quite cheerful, quite loud, so that the others in the room turned and looked at him. "Jolly. Whisky, what?"
+He went straight as a bird dog to the bar in the corner, the lieutenant following. Bogard had turned and
+gone on to the other end of the room, where five men sat about a card table.
+
+</p><p n="2.3">"What's he admiral of?" one said.
+
+</p><p n="2.4">"Of the whole Scotch navy, when I found him," Bogard said.
+
+</p><p n="2.5">Another looked up. "Oh., I thought I'd seen him in town." He looked at the guest. "Maybe it's because he was on his
+feet that I didn't recognize him when he came in. You usually see them lying down in the
+gutter."
+
+</p><p n="2.6">"Oh," the first said. He, too, looked around. "Is he one of those guys?"
+
+</p><p n="2.7">"Sure. You've seen them. Sitting on the curb, you know, with a couple of limey M. P.'s hauling at their
+arms."
+
+</p><p n="2.8">"Yes. I've seen them," the other said. They all looked at the English boy. He stood at the
+bar, talking, his voice loud, cheerful. "They all look like him too," the speaker said. "About seventeen or
+eighteen. They run those little boats that are always dashing in and out."
+
+</p><p n="2.9">"Is that what they do?" a third said. "You mean, there's a male marine auxiliary to the Waacs? Good Lord, I sure made a mistake
+when I enlisted. But this war never was advertised right."
+
+</p><p n="2.10">"I don't know," Bogard said. "I guess they do more than just ride around."
+
+</p><p n="2.11">But they were not listening to him. They were looking at the
+guest. "They run by clock," the first said. "You can see the condition of one of them after sunset and almost
+tell what time it is. But what I don't see is, how a man that's in that shape at one o'clock every morning can
+even see a battleship the next day."
+
+</p><p n="2.12">"Maybe when they have a message to send out to a ship,"
+another said, "they just make duplicates and line the launches up and point them toward the ship and give
+each one a duplicate of the message and let them go. And the ones that miss the ship just cruise around the
+harbor until they hit a dock somewhere."
+
+</p><p n="2.13">"It must be more than that," Bogard said.
+
+</p><p n="2.14">He was
+about to say something else, but at that moment the guest turned from the bar and approached, carrying a
+glass. He walked steadily enough, but his color was high and his eyes were bright, and he was talking,
+loud, cheerful, as he came up.
+
+</p><p n="2.15">"I say. Won't you chaps join-- " He ceased. He seemed to remark
+something; he was looking at their breasts. "Oh, I say. You fly. All of you. Oh, good gad! Find it jolly,
+eh?"
+
+</p><p n="2.16">"Yes," somebody said. "Jolly."
+
+</p><p n="2.17">"But dangerous, what?"
+
+</p><p n="2.18">"A little faster than
+tennis," another said. The guest looked at him, bright, affable, intent.
+
+</p><p n="2.19">Another said quickly,
+"Bogard says you command a vessel."
+
+</p><p n="2.20">"Hardly a vessel. Thanks, though. And not command.
+Ronnie does that. Ranks me a bit. Age."
+
+</p><p n="2.21">"Ronnie?"
+
+</p><p n="2.22">"Yes. Nice. Good egg. Old, though.
+Stickler."
+
+</p><p n="2.23">"Stickler?"
+
+</p><p n="2.24">"Frightful. You'd not believe it. Whenever we sight smoke and I have
+the glass, he sheers away. Keeps the ship hull down all the while. No beaver then. Had me two down a
+fortnight yesterday."
+
+</p><p n="2.25">The Americans glanced at one another. "No beaver?"
+
+</p><p n="2.26">"We play it.
+With basket masts, you see. See a basket mast. Beaver! One up. The Ergenstrasse doesn't count any more,
+though."
+
+</p><p n="2.27">The men about the table looked at one another. Bogard spoke. "I see. When you or
+Ronnie see a ship with basket masts, you get a beaver on the other. I see. What is the
+Ergenstrasse?"
+
+</p><p n="2.28">"She's German. Interned. Tramp steamer. Foremast rigged so it looks something
+like a basket mast. Booms, cables, I dare say. I didn't think it looked very much like a basket mast, myself.
+But Ronnie said yes. Called it one day. Then one day they shifted her across the basin and I called her on
+Ronnie. So we decided to not count her any more. See now, eh?"
+
+</p><p n="2.29">"Oh," the one who had made the
+tennis remark said, "I see. You and Ronnie run about in the launch, playing beaver. H'm'm. That's nice. Did
+you ever pl--"
+
+</p><p n="2.30">"Jerry," Bogard said. The guest had not moved. He looked down at the speaker, still
+smiling, his eyes quite wide.
+
+</p><p n="2.31">The speaker still looked at the guest. "Has yours and Ronnie's boat
+got a yellow stern?"
+
+</p><p n="2.32">"A yellow stern?" the English boy said. He had quit smiling, but his face was
+still pleasant.
+
+</p><p n="2.33">"I thought that maybe when the boats had two captains, they might paint the sterns
+yellow or something."
+
+</p><p n="2.34">"Oh," the guest said. "Burt and Reeves aren't officers."
+
+</p><p n="2.35">"Burt and
+Reeves," the other said, in a musing tone. "So they go, too. Do they play beaver too?"
+
+</p><p n="2.36">"Jerry,"
+Bogard said. The other looked at him. Bogard jerked his head a little. "Come over here." The other rose.
+They went aside. "Lay off of him," Bogard said. "I mean it, now. He's just a kid. When you were that age,
+how much sense did you have? Just about enough to get to chapel on time."
+
+</p><p n="2.37">"My country hadn't
+been at war going on four years, though," Jerry said. "Here we are, spending our money and getting shot at
+by the clock, and it's not even our fight, and these limeys that would have been goose-stepping twelve
+months now if it hadn't been--"
+
+</p><p n="2.38">"Shut it," Bogard said. "You sound like a Liberty Loan."
+
+</p><p n="2.39">"--taking it like it was a fair or something. 'Jolly.'" His voice was now falsetto, lilting. "'But dangerous,
+what?'"
+
+</p><p n="2.40">"Sh-h-h-h," Bogard said.
+
+</p><p n="2.41">"I'd like to catch him and his Ronnie out in the harbor,
+just once. Any harbor. London's. I wouldn't want anything but a Jenny, either. Jenny? Hell, I'd take a
+bicycle and a pair of water wings! I'll show him some war."
+
+</p><p n="2.42">"Well, you lay off him now. He'll be
+gone soon."
+
+</p><p n="2.43">"What are you going to do with him?"
+
+</p><p n="2.44">"I'm going to take him along this
+morning. Let him have Harper's place out front. He says he can handle a Lewis. Says they have one on the
+boat. Something he was telling me--about how he once shot out a channel-marker light at seven hundred
+yards."
+
+</p><p n="2.45">"Well, that's your business. Maybe he can beat you."
+
+</p><p n="2.46">"Beat me?"
+
+</p><p n="2.47">"Playing
+beaver. And then you can take on Ronnie."
+
+</p><p n="2.48">"I'll show him some war, anyway," Bogard said. He
+looked at the guest. "His people have been in it three years now, and he seems to take it like a sophomore
+in town for the big game." He looked at Jerry again. "But you lay off him now."
+
+</p><p n="2.49">As they
+approached the table, the guest's voice was loud and cheerful: ". . . if he got the glasses first, he would go in
+close and look, but when I got them first, he'd sheer off where I couldn't see anything but the smoke.
+Frightful stickler. Frightful. But Ergenstrasse not counting any more. And if you make a mistake and call
+her, you lose two beaver from your score. If Ronnie were only to forget and call her we'd be
+even."</p>
+</div1>
+<div1 type="section" n="3">
+<head>III</head>
+
+<p n="3.1">At two o'clock the English boy was still talking, his
+voice bright, innocent and cheerful. He was telling them how Switzerland had been spoiled by 1914, and
+instead of the vacation which his father had promised him for his sixteenth birthday, when that birthday
+came he and his tutor had had to do with Wales. But that he and the tutor had got pretty high and that he
+dared to say--with all due respect to any present who might have had the advantage of Switzerland, of
+course--that one could see probably as far from Wales as from Switzerland. "Perspire as much and breathe
+as hard, anyway," he added. And about him the Americans sat, a little hard-bitten, a little sober, somewhat
+older, listening to him with a kind of cold astonishment. They had been getting up for some time now and
+going out and returning in flying clothes, carrying helmets and goggles. An orderly entered with a tray of
+coffee cups, and the guest realized that for some time now he had been hearing engines in the darkness
+outside.
+
+</p><p n="3.2">At last Bogard rose. "Come along," he said. "We'll get your togs." When they emerged
+from the mess, the sound of the engines was quite loud--an idling thunder. In alignment along the invisible
+tarmac was a vague rank of short banks of flickering blue-green fire suspended apparently in mid-air. They
+crossed the aerodrome to Bogard's quarters, where the lieutenant, McGinnis, sat on a cot fastening his
+flying boots. Bogard reached down a Sidcott suit and threw it across the cot. "Put this on," he
+said.
+
+</p><p n="3.3">"Will I need all this?" the guest said. "Shall we be gone that long?"
+
+</p><p n="3.4">"Probably,"
+Bogard said. "Better use it. Cold upstairs."
+
+</p><p n="3.5">The guest picked up the suit. "I say," he said. 
+<app><lem wit="first-ed">"I say. Ronnie</lem><rdg wit="SEP">"I say. Ronnie</rdg><rdg wit="reader">"I say, Ronnie</rdg></app> 
+and I have a do ourselves, tomor--today. Do you think Ronnie won't mind if I am a bit late? Might
+not wait for me."
+
+</p><p n="3.6">"We'll be back before teatime," McGinnis said.
+
+</p><p n="3.7"> He seemed quite busy
+with his boot. "Promise you." The English boy looked at him.
+
+</p><p n="3.8">"What time should you be back?"
+Bogard said.
+
+</p><p n="3.9">"Oh, well," the English boy said, "I dare say it will be all right. They let Ronnie say
+when to go, anyway. He'll wait for me if I should be a bit late."
+
+</p><p n="3.10">"He'll wait," Bogard said. "Get
+your suit on."
+
+</p><p n="3.11">"Right," the other said. They helped him into the suit. "Never been up before," he
+said, chattily, pleasantly. "Dare say you can see farther than from mountains, eh?"
+
+</p><p n="3.12">"See more,
+anyway," McGinnis said. "You'll like it."
+
+</p><p n="3.13">"Oh, rather. If Ronnie only waits for me. Lark. But
+dangerous, isn't it?"
+
+</p><p n="3.14">"Go on," McGinnis said. "You're kidding me."
+
+</p><p n="3.15">"Shut your trap, Mac,"
+Bogard said. "Come along. Want some more coffee?" He looked at the guest, but McGinnis
+answered:
+
+</p><p n="3.16">"No. Got something better than coffee. Coffee makes such a confounded stain on the
+wings."
+
+</p><p n="3.17">"On the wings?" the English boy said. "Why coffee 
+<app><lem wit="first-ed">on the wings?"</lem><rdg wit="SEP">on the wings?"</rdg><rdg wit="reader">on the wings."</rdg></app>
+
+</p><p n="3.18">"Stow it, I said,
+Mac," Bogard said. "Come along."
+
+</p><p n="3.19">They recrossed the aerodrome, approaching the muttering
+banks of flame. When they drew near, the guest began to discern the shape, the outlines, of the Handley-Page. 
+It looked like a Pullman coach run upslanted aground into the skeleton of the first floor of an
+incomplete skyscraper. The guest looked at it quietly.
+
+</p><p n="3.20">"It's larger than a cruiser," he said in his
+bright, interested voice. "I say, you know. This doesn't fly in one lump. You can't pull my leg. Seen them
+before. It comes in two parts: Captain Bogard and me in one; Mac and 'nother chap in other.
+What?"
+
+</p><p n="3.21">"No," McGinnis said. Bogard had vanished. "It all goes up in one lump. Big lark, eh?
+Buzzard, what?"
+
+</p><p n="3.22">"Buzzard?" the guest murmured. "Oh, I say. A cruiser. Flying. I 
+<app><lem wit="first-ed">say,</lem><rdg wit="reader">say,</rdg><rdg wit="SEP" cause="broken_type_comma">say</rdg></app>
+now."
+
+</p><p n="3.23">"And listen," McGinnis said. His hand came forth; something cold fumbled against the hand
+of the English boy--a bottle. "When you feel yourself getting sick, see? Take a pull at it."
+
+</p><p n="3.24">"Oh,
+shall I get sick?"
+
+</p><p n="3.25">"Sure. We all do. Part of flying. This will stop it. But if it doesn't.
+See?"
+
+</p><p n="3.26">"What? Quite. What?"
+
+</p><p n="3.27">"Not overside. Don't spew it overside."
+
+</p><p n="3.28">"Not
+overside?"
+
+</p><p n="3.29">"It'll blow back in Bogy's and my face. Can't see. Bingo. Finished. See?"
+
+</p><p n="3.30">"Oh,
+quite. What shall I do with it?" Their voices were quiet, brief, grave as conspirators.
+
+</p><p n="3.31">"Just duck
+your head and let her go."
+
+</p><p n="3.32">"Oh, quite."
+
+</p><p n="3.33">Bogard returned. "Show him how to get into the
+front pit, will you?" he said. McGinnis led the way through the trap. Forward, rising to the slant of the
+fuselage, the passage narrowed; a man would need to crawl.
+
+</p><p n="3.34">"Crawl in there and keep going,"
+McGinnis said.
+
+</p><p n="3.35">"It looks like a dog kennel," the guest said.
+
+</p><p n="3.36">"Doesn't it, though?" McGinnis
+agreed cheerfully. "Cut along with you." Stooping, he could hear the other scuttling forward. "You'll find a
+Lewis gun up there, like as not," he said into the tunnel.
+
+</p><p n="3.37">The voice of the guest came back: "Found
+it."
+
+</p><p n="3.38">"The gunnery sergeant will be along in a minute and show you if it is loaded."
+
+</p><p n="3.39">"It's
+loaded," the guest said; almost on the heels of his words the gun fired, a brief staccato burst. There were
+shouts, the loudest from the ground beneath the nose of the aeroplane. "It's quite all right," the English
+boy's voice said. "I pointed it west before I let it off. Nothing back there but Marine office and your brigade
+headquarters. Ronnie and I always do this before we go anywhere. Sorry if I was too soon. Oh, by the
+way," he added, "my name's Claude. Don't think I mentioned it."
+
+</p><p n="3.40">On the ground, Bogard and two
+other officers stood. They had come up running. "Fired it west," one said. "How in hell does he know
+which way is west?"
+
+</p><p n="3.41">"He's a sailor," the other said. "You forgot that."
+
+</p><p n="3.42">"He seems to be a
+machine gunner too," Bogard said.
+
+</p><p n="3.43">"Let's hope he doesn't forget that," the first
+said.</p>
+</div1>
+<div1 type="section" n="4">
+<head>IV</head>
+
+<p n="4.1">Nevertheless, Bogard kept an eye on the silhouetted head rising
+from the round gunpit in the nose ten feet ahead of him. "He did work that gun, though," he said to
+McGinnis beside him. "He even put the drum on himself, didn't he?"
+
+</p><p n="4.2">"Yes," McGinnis said. "If he
+just doesn't forget and think that that gun is him and his tutor looking around from a Welsh
+alp."
+
+</p><p n="4.3">"Maybe I should not have brought him," Bogard said. McGinnis didn't answer. Bogard
+jockeyed the wheel a little. Ahead, in the gunner's pit, the guest's head moved this way and that
+continuously, looking. "We'll get there and unload and haul air for home," Bogard said. "Maybe in the
+dark--Confound it, it would be a shame for his country to be in this mess for four years and him not even to
+see a gun pointed in his direction."
+
+</p><p n="4.4">"He'll see one tonight if he don't keep his head in," McGinnis
+said.
+
+</p><p n="4.5">But the boy did not do that. Not even when they had reached the objective and McGinnis had
+crawled down to the bomb toggles. And even when the searchlights found them and Bogard signaled to the
+other machines and dived, the two engines snarling full speed into and through the bursting shells, he could
+see the boy's face in the searchlight's glare, leaned far overside, coming sharply out as a spot-lighted face
+on a stage, with an expression upon it of childlike interest and delight. "But he's firing that Lewis," Bogard
+thought. "Straight too"; nosing the machine farther down, watching the pinpoint swing into the sights, his
+right hand lifted, waiting to drop into McGinnis' sight. He dropped his hand; above the noise of the engines
+he seemed to hear the click and whistle of the released bombs as the 
+<app><lem wit="SEP">machine, freed</lem><rdg wit="reader">machine, freed</rdg><rdg wit="first-ed">machine freed</rdg></app> of the weight, shot
+zooming in a long upward bounce that carried it for an instant out of the light. Then he was pretty busy for
+a time, coming into and through the shells again, shooting athwart another beam that caught and held long
+enough for him to see the English boy leaning far over the side, looking back and down past the right wing,
+the undercarriage. "Maybe he's read about it somewhere," Bogard thought, turning, looking back to pick up
+the rest of the flight.
+
+</p><p n="4.6">Then it was all over, the darkness cool and empty and peaceful and almost
+quiet, with only the steady sound of the engines. McGinnis climbed back into the office, and standing up in
+his seat, he fired the colored pistol this time and stood for a moment longer, looking backward toward
+where the search-lights still probed and sabered. He sat down again.
+
+</p><p n="4.7">"O.K.," he said. "I counted all
+four of them. Let's haul air." Then he looked forward. "What's become of the King's Own? You didn't hang
+him onto a bomb release, did you?" Bogard looked. The forward pit was empty. It was in dim silhouette
+again now, against the stars, but there was nothing there now save the gun. "No," 
+<app><lem wit="first-ed">McGinnis said;</lem><rdg wit="SEP">McGinnis said;</rdg><rdg wit="reader">McGinnis said:</rdg></app> 
+"there he is. See? Leaning overside. Dammit, I told him not to spew it! There he comes back." The guest's head came
+into view again. But again it sank out of sight.
+
+</p><p n="4.8">"He's coming back," Bogard said. "Stop him. Tell
+him we're going to have every squadron in the Hun Channel group on top of us in thirty
+minutes."
+
+</p><p n="4.9">McGinnis swung himself down and stooped at the entrance to the passage. "Get back!"
+he shouted.
+
+</p><p n="4.10"> The other was almost out; they squatted so, face to face like two dogs, shouting at one
+another above the noise of the still-unthrottled engines on either side of the fabric walls. The English boy's
+voice was thin and high.
+
+</p><p n="4.11">"Bomb!" he shrieked.
+
+</p><p n="4.12">"Yes," McGinnis 
+<app><lem wit="SEP">shouted,</lem><rdg wit="reader">shouted,</rdg><rdg wit="first-ed">shouted.</rdg></app> "they were bombs! We gave them
+hell! Get back, I tell you! Have every Hun in France on us in ten minutes! Get back to your
+gun!"
+
+</p><p n="4.13">Again the boy's voice came, high, faint above the noise: "Bomb! All right?"
+
+</p><p n="4.14">"Yes!
+Yes! All right. Back to your gun, damn you!"
+
+</p><p n="4.15">McGinnis climbed back into the office. "He went
+back. Want me to take her awhile?"
+
+</p><p n="4.16">"All right," Bogard said. He passed McGinnis the wheel. "Ease
+her back some. I'd just as soon it was daylight when they come down on us."
+
+</p><p n="4.17">"Right," McGinnis
+said. He moved the wheel suddenly. "What's the matter with that right wing?" he said. "Watch it. . . . See?
+I'm flying on the right aileron and a little rudder. Feel it."
+
+</p><p n="4.18">Bogard took the wheel a moment. "I
+didn't notice that. Wire somewhere, I guess. I didn't think any of those shells were that close. Watch her,
+though."
+
+</p><p n="4.19">"Right," McGinnis said. "And so you are going with him on his boat tomorrow--today."
+
+</p><p n="4.20">"Yes. I promised him. Confound it, you can't hurt a kid, you know."
+
+</p><p n="4.21">"Why don't
+you take Collier along, with his mandolin? Then you could sail around and sing."
+
+</p><p n="4.22">"I promised
+him," Bogard said. "Get that wing up a little."
+
+</p><p n="4.23">"Right," McGinnis said.
+
+</p><p n="4.24">Thirty minutes later
+it was beginning to be dawn; the sky was gray. Presently McGinnis said: "Well, here they come. Look at
+them! They look like mosquitoes in September. I hope he don't get worked up now and think he's playing
+beaver. If he does he'll just be one down to Ronnie, provided the devil has a beard . . . . Want the
+wheel?"</p>
+</div1>
+<div1 type="section" n="5">
+<head>V</head>
+
+<p n="5.1">At eight o'clock the beach, the Channel, was beneath them.
+Throttled back, the machine drifted down as Bogard ruddered it gently into the Channel wind. His face was
+strained, a little tired.
+
+</p><p n="5.2">McGinnis looked tired, too, and he needed a shave.
+
+</p><p n="5.3">"What do you
+guess he is looking at now?" he said. For again the English boy was leaning over the right side of the
+cockpit, looking backward and downward past the right wing.
+
+</p><p n="5.4">"I don't know," Bogard said.
+"Maybe bullet holes." He blasted the port engine. "Must have the riggers--"
+
+</p><p n="5.5">"He could see some
+closer than that," McGinnis said. "I'll swear I saw tracer going into his back at one time. Or maybe it's the
+ocean he's looking at. But he must have seen that when he came over from England." Then Bogard leveled
+off; the nose rose sharply, the sand, the curling tide edge fled along-side. Yet still the English boy hung far
+overside, looking backward and downward at something beneath the right wing, his face rapt, with utter
+and childlike interest. Until the machine was completely stopped he continued to do so. Then he ducked
+down, and in the abrupt silence of the engines they could hear him crawling in the passage. He emerged
+just as the two pilots climbed stiffly down from the office, his face bright, eager; his voice high,
+excited.
+
+</p><p n="5.6">"Oh, I say! Oh, good gad! 
+<app><lem wit="first-ed">What a chap!</lem><rdg wit="SEP">What a chap!</rdg><rdg wit="reader">What a chap.</rdg></app> 
+What a judge of distance! If Ronnie could only
+have seen! Oh, good gad! Or maybe they aren't like ours--don't load themselves as soon as the air strikes
+them."
+
+</p><p n="5.7">The Americans looked at him. "What don't what?" 
+<app><lem wit="first-ed">McGinnis said.</lem><rdg wit="SEP">McGinnis said.</rdg><rdg wit="reader">McGinnis said.[no new ¶]</rdg></app>
+
+</p><p n="5.8">"The bomb. It
+was magnificent; I say, I shan't forget it. Oh, I say, you know! It was splendid!"
+
+</p><p n="5.9">After a while
+McGinnis said, "The bomb?" in a fainting voice. Then the two pilots glared at each other; they said in
+unison: "That right wing!" Then as one they clawed down through the trap and, with the guest at their
+heels, they ran around the machine and looked beneath the right wing. The bomb, suspended by its tail,
+hung straight down like a plumb bob beside the right wheel, its tip just touching the sand. And parallel with
+the wheel track was the long, delicate line in the sand where its ultimate tip had dragged. Behind them the
+English boy's voice was high, clear, childlike:
+
+</p><p n="5.10">"Frightened, myself. Tried to tell you. But realized
+you knew your business better than I. Skill. Marvelous. Oh, I say, I shan't forget
+it."</p>
+</div1>
+<div1 type="section" n="6">
+<head>VI</head>
+
+<p n="6.1">A marine with a bayoneted rifle passed Bogard onto the wharf and
+directed him to the boat. The wharf was empty, and he didn't even see the boat until he approached the
+edge of the wharf and looked directly down into it and upon the backs of two stooping men in greasy
+dungarees, who rose and glanced briefly at him and stooped again.
+
+</p><p n="6.2">It was about thirty feet long and
+about three feet wide. It was painted with gray-green camouflage. It was quarter-decked forward, with two
+blunt, raked exhaust stacks. "Good Lord," Bogard thought, "if all that deck is engine--" Just aft the deck
+was the control seat; he saw a big wheel, an instrument panel. Rising to a height of about a foot above the
+free-board, and running from the stern forward to where the deck began, and continuing on across the after
+edge of the deck and thence back down the other gunwale to the stern, was a solid screen, also
+camouflaged, which inclosed the boat save for the width of the stern, which was open. Facing the
+steersman's seat like an eye was a hole in the screen about eight inches in diameter. And looking down into
+the long, narrow, still, vicious shape, he saw a machine gun swiveled at the stern, and he looked at the low
+screen--including which the whole vessel did not sit much more than a yard above water level--with its
+single empty forward-staring eye, and he thought quietly: "It's steel. It's made of steel." And his face was
+quite sober, quite thoughtful, and he drew his trench coat about him and buttoned it, as though he were
+getting cold.
+
+</p><p n="6.3">He heard steps behind him and turned. But it was only an orderly from the aerodrome,
+accompanied by the marine with the rifle. The orderly was carrying a largish bundle wrapped in
+paper.
+
+</p><p n="6.4">"From Lieutenant McGinnis to the captain," the orderly said.
+
+</p><p n="6.5">Bogard took the
+bundle. The orderly and the marine retreated. He opened the bundle. It contained some objects and a
+scrawled note. The objects were a new yellow silk sofa cushion and a Japanese parasol, obviously
+borrowed, and a comb and a 
+<app><lem wit="first-ed">roll of toilet</lem><rdg wit="reader">roll of toilet</rdg><rdg wit="SEP">few sheets of flimsy</rdg></app> paper. The note said:
+
+</p><p n="6.6"><q>Couldn't find a camera anywhere and Collier wouldn't let me have his
+mandolin. But maybe Ronnie can play on the comb.</q><q>MAC.</q>
+
+</p><p n="6.7">Bogard looked at
+the objects. But his face was still quite thoughtful, quite grave. He rewrapped the things and carried the
+bundle on up the 
+<app><lem wit="first-ed">wharf a way and</lem><rdg wit="SEP">wharf a way and</rdg><rdg wit="reader">wharf and</rdg></app> dropped it quietly into the water.
+
+</p><p n="6.8">As he returned toward the
+invisible boat he saw two men approaching. He recognized the boy at once--tall, slender, already talking,
+voluble, his head bent a little toward his shorter companion, who plodded along 
+
+</p><p n="6.9">beside him, hands
+in pockets, smoking a pipe. The boy still wore the pea-coat beneath a flapping oilskin, but in place of the
+rakish and casual cap he now wore an infantryman's soiled Balaclava helmet, with, floating behind him as
+though upon the sound of his voice, a curtainlike piece of cloth almost as long as a
+burnous.
+
+</p><p n="6.10">"Hullo, there!" he cried, still a hundred yards away.
+
+</p><p n="6.11">But it was the second man
+that Bogard was watching, thinking to himself that he had never in his life seen a more curious figure.
+There was something stolid about the very shape of his hunched shoulders, his slightly down-looking face.
+He was a head shorter than the other. His face was ruddy, too, but its mold was of a profound gravity that
+was almost dour. It was the face of a man of twenty who has been for a year trying, even while asleep, to
+look twenty-one. He wore a high-necked sweater and dungaree slacks; above this a leather jacket; and
+above this a soiled naval officer's warmer that reached almost to his heels and which had one shoulder strap
+missing and not one remaining button at all. On his head was a plaid fore-and-aft deer stalker's cap, tied on
+by a narrow scarf brought across and down, hiding his ears, and then wrapped once about his throat and
+knotted with a hangman's noose beneath his left ear. It was unbelievably soiled, and with his hands elbow-deep 
+in his pockets and his hunched shoulders and his bent head, he looked like someone's grandmother
+hung, say, for a witch. Clamped upside down between his teeth was a short brier pipe.
+
+</p><p n="6.12">"Here he
+is!" the boy cried. "This is Ronnie. Captain Bogard."
+
+</p><p n="6.13">"How are you?" Bogard said. He extended his
+hand. The other said no word, but his hand came forth, limp. It was quite cold, but it was hard, calloused.
+But he said no word; he just glanced briefly at Bogard and then away. But in that instant Bogard caught
+something in the look, something strange--a flicker; a kind of covert and curious respect, something like a
+boy of fifteen looking at a circus trapezist.
+
+</p><p n="6.14">But he said no word. He ducked on; Bogard watched
+him drop from sight over the wharf edge as though he had jumped feet first into the sea. He remarked now
+that the engines in the invisible boat were running.
+
+</p><p n="6.15">"We might get aboard too," the boy said. He
+started toward the boat, then he stopped. He touched Bogard's arm. "Yonder!" he hissed. "See?" His voice
+was thin with excitement.
+
+</p><p n="6.16">"What?" Bogard also whispered; automatically he looked backward and
+upward, after old habit. The other was gripping his arm and pointing across the harbor.
+
+</p><p n="6.17">"There!
+Over there. The Ergenstrasse. They have shifted her again." Across the harbor lay an ancient, rusting,
+sway-backed hulk. It was small and nondescript, and, remembering, Bogard saw that the fore-mast was a
+strange mess of cables and booms, resembling--allowing for a great deal of license or looseness of
+imagery--a basket mast. Beside him the boy was almost chortling. "Do you think that Ronnie noticed?" he
+hissed. "Do you?"
+
+</p><p n="6.18">"I don't know," Bogard said.
+
+</p><p n="6.19">"Oh, good gad! If he should glance up and
+call her before he notices, we'll be even. Oh, good gad! 
+
+</p><p n="6.20">But come along." He went on; he was still
+chortling. "Careful," he said. "Frightful ladder."
+
+</p><p n="6.21">He descended first, the two men in the boat rising
+and saluting. Ronnie had disappeared, save for his backside, which now filled a small hatch leading
+forward beneath the deck. Bogard descended gingerly.
+
+</p><p n="6.22">"Good Lord," he said. "Do you have to
+climb up and down this every day?"
+
+</p><p n="6.23">"Frightful, isn't it?" the other said, in his happy voice. "But
+you know yourself. Try to run a war with makeshifts, then wonder why it takes so long." The narrow hull
+slid and surged, even with Bogard's added weight. "Sits right on top, you see," the boy said. "Would float
+on a lawn, in a heavy dew. Goes right over them like a bit of paper."
+
+</p><p n="6.24">"It does?" Bogard
+said.
+
+</p><p n="6.25">"Oh, absolutely. That's why, you see." Bogard didn't see, but he was too busy letting himself
+gingerly down to a sitting posture. There were no thwarts; no seats save a long, thick, cylindrical ridge
+which ran along the bottom of the boat from the driver's seat to the stern. Ronnie had backed into sight. He
+now sat behind the wheel, bent over the instrument panel. But when he glanced back over his shoulder he
+did not speak. His face was merely interrogatory. Across his face there was now a long smudge of grease.
+The boy's face was empty, too, now.
+
+</p><p n="6.26">"Right," he said. He looked forward, where one of the seamen
+had gone. "Ready forward?" he said.
+
+</p><p n="6.27">"Aye, sir," the seaman said.
+
+</p><p n="6.28">The other seaman was at
+the stern line. "Ready aft?"
+
+</p><p n="6.29">"Aye, sir."
+
+</p><p n="6.30">"Cast off." The boat sheered away, purring, a
+boiling of water under the stern. The boy looked down at Bogard. "Silly business. Do it shipshape, though.
+Can't tell when silly fourstriper--" His face changed again, immediate, solicitous. "I say. Will you be
+warm? I never thought to fetch--"
+
+</p><p n="6.31">"I'll be all right," Bogard said. But the other was already taking
+off his oilskin. "No, no," Bogard said. "I won't take it."
+
+</p><p n="6.32">"You'll tell me if you get
+cold?"
+
+</p><p n="6.33">"Yes. Sure." He was looking down at the cylinder on which he sat. It was a half cylinder--that 
+is, like the hot-water tank to some Gargantuan stove, sliced down the middle and bolted, open side
+down, to the floor plates. It was twenty feet long and more than two feet thick. Its top rose as high as the
+gunwales and between it and the hull on either side was just room enough for a man to place his feet to
+walk.
+
+</p><p n="6.34">"That's Muriel," the boy said.
+
+</p><p n="6.35">"Muriel?"
+
+</p><p n="6.36">"Yes. The one before that was
+Agatha. After my aunt. The first one Ronnie and I had was Alice in Wonderland. Ronnie and I were the
+White Rabbit. Jolly, eh?"
+
+</p><p n="6.37">"Oh, you and Ronnie have had three, have you?"
+
+</p><p n="6.38">"Oh, yes," the
+boy said. He leaned down. "He didn't notice," he whispered. His face was again bright, gleeful. "When we
+come back," he said. "You watch."
+
+</p><p n="6.39">"Oh," Bogard said. "The Ergenstrasse." He looked astern, and
+then he thought: "Good Lord! We must be going--traveling." He looked out now, broadside, and saw the
+harbor line fleeing past, and he thought to himself that the boat was well-nigh moving at the speed at which
+the Handley-Page flew, left the ground. They were beginning to bound now, even in the sheltered water,
+from one wave crest to the next with a distinct shock. His hand still rested on the cylinder on which he sat.
+He looked down at it again, following it from where it seemed to emerge beneath Ronnie's seat, to where it
+beveled into the stern. "It's the air 
+<app><lem wit="first-ed">in here,</lem><rdg wit="SEP">in here,</rdg><rdg wit="reader">in her,</rdg></app> I suppose," he said.
+
+</p><p n="6.40">"The what?" the boy
+said.
+
+</p><p n="6.41">"The air. Stored up 
+<app><lem wit="first-ed">in here.</lem><rdg wit="SEP">in here.</rdg><rdg wit="reader">in her.</rdg></app> That makes the boat ride high."
+
+</p><p n="6.42">"Oh, yes. I dare say. Very
+likely. I hadn't thought about it." He came forward, his burnous whipping in the wind, and sat down beside
+Bogard. Their heads were below the top of the screen.
+
+</p><p n="6.43">Astern the harbor fled, diminishing, sinking
+into the sea. The boat had begun to lift now, swooping forward and down, shocking almost stationary for a
+moment, then lifting and swooping again; a gout of spray came aboard over the bows like a flung shovelful
+of shot. "I wish you'd take this coat," the boy said.
+
+</p><p n="6.44">Bogard didn't answer. He looked around at the
+bright face. "We're outside, aren't we?" he said quietly.
+
+</p><p n="6.45">"Yes. . . . Do take it, won't
+you?"
+
+</p><p n="6.46">"Thanks, no. I'll be all right. We won't be long, anyway, I guess."
+
+</p><p n="6.47">"No. We'll turn
+soon. It won't be so bad then."
+
+</p><p n="6.48">"Yes. I'll be all right when we turn." Then they did turn. The motion
+became easier. That is, the boat didn't bang head-on, shuddering, into the swells. They came up beneath
+now, and the boat fled with increased speed, with a long, sickening, 
+<app><lem wit="SEP">yawing</lem><rdg wit="reader">yawing</rdg><rdg wit="first-ed">yawning</rdg></app> motion, first to one side and then the
+other. But it fled on, and Bogard looked astern with that same soberness with which he had first looked
+down into the boat. "We're going east now," he said.
+
+</p><p n="6.49">"With just a spot of north," the boy said.
+"Makes her ride a bit better, what?"
+
+</p><p n="6.50">"Yes," Bogard said. Astern there was nothing now save empty
+sea and the delicate needlelike cant of the machine gun against the boiling and slewing wake, and the two
+seamen crouching quietly in the stern. "Yes. It's easier." Then he said: "How far do we go?"
+
+</p><p n="6.51">The
+boy leaned closer. He moved closer. His voice was happy, confidential, proud, though lowered a little: "It's
+Ronnie's show. He thought of it. Not that I wouldn't have, in time. Gratitude and all that. But he's the older,
+you see. Thinks fast. Courtesy, <hi>noblesse oblige</hi>--all that. Thought of it soon as I told him this
+morning. I said, 'Oh, I say. I've been there. I've seen it'; and he said, 'Not flying'; and I said, 'Strewth'; and
+he said 'How far? No lying now'; and I said, 'Oh, far. Tremendous. Gone all night'; and he said, 'Flying all
+night. That must have been to Berlin'; and I said, 'I don't know. I dare say'; and he thought. I could see him
+thinking. Because he is the older, you see. More experience in courtesy, right thing. And he said, 'Berlin.
+No fun to that chap, dashing out and back with us.' And he thought and I waited, and I said, 'But we can't
+take him to Berlin. Too far. Don't know the way, either'; and he said--fast, like a shot--said, 'But there's
+Kiel'; and I knew--"
+
+</p><p n="6.52">"What?" Bogard said. Without moving, his whole body sprang. "Kiel? In
+this?"
+
+</p><p n="6.53">"Absolutely. Ronnie thought of it. Smart, even if he is a stickler. Said at once, 'Zeebrugge no
+show at all for that chap. Must do best we can for him. Berlin,' Ronnie said. 
+'My <app><lem wit="first-ed">gad!</lem><rdg wit="SEP">gad!</rdg><rdg wit="reader">Gad!</rdg></app> Berlin.'"
+
+</p><p n="6.54">"Listen," Bogard said. He had turned now, facing the other, his face quite grave. "What is
+this boat for?"
+
+</p><p n="6.55">"For?"
+
+</p><p n="6.56">"What does it do?" Then, knowing beforehand the answer to his own
+question, he said, putting his hand on the cylinder: "What is this in here? A torpedo, isn't it?"
+
+</p><p n="6.57">"I
+thought you knew," the boy said.
+
+</p><p n="6.58">"No," Bogard said. "I didn't know." His voice seemed to reach
+him from a distance, dry, cricketlike: "How do you fire it?"
+
+</p><p n="6.59">"Fire it?"
+
+</p><p n="6.60">"How do you get it
+out of the boat? When that hatch was open a while ago I could see the engines. They were right in front of
+the end of this tube."
+
+</p><p n="6.61">"Oh," the boy said. "You pull a gadget there and the torpedo drops out astern.
+As soon as the screw touches the water it begins to turn, and then the torpedo is ready, loaded. Then all you
+have to do is turn the boat quickly and the torpedo goes on."
+
+</p><p n="6.62">"You mean--" Bogard said. After a
+moment his voice obeyed him again. "You mean you aim the torpedo with the boat and release it and it
+starts moving, and you turn the boat out of the way and the torpedo passes through the same water that the
+boat just vacated?"
+
+</p><p n="6.63">"Knew you'd catch on," the boy said. "Told Ronnie so. Airman. Tamer than
+yours, though. But can't be helped. Best we can do, just on water. But knew you'd catch
+on."
+
+</p><p n="6.64">"Listen," Bogard said. His voice sounded to him quite calm. The boat fled on, yawing over the
+swells. He sat quite motionless. It seemed to him that he could hear himself talking to himself: "Go on. Ask
+him. Ask him what? Ask him how close to the ship do you have to be before you fire . . . . Listen," he said,
+in that calm voice. "Now, you tell Ronnie, you see. You just tell him--just say--" He could feel his voice
+ratting off on him again, so he stopped it. He sat quite motionless, waiting for it to come back; the boy
+leaning now, looking at his face. Again the boy's voice was solicitous:
+
+</p><p n="6.65">"I say. You're not feeling
+well. These confounded shallow boats."
+
+</p><p n="6.66">"It's not that," Bogard said. "I just-- Do your orders say
+Kiel?"
+
+</p><p n="6.67">"Oh, no. They let Ronnie say. Just so we bring the boat back. This is for you. Gratitude.
+Ronnie's idea. Tame, after flying. But if you'd rather, eh?"
+
+</p><p n="6.68">"Yes, some place closer. You see, I--"
+
+</p><p n="6.69">"Quite. I see. No vacations in wartime. I'll tell Ronnie." He went forward. Bogard did not
+move.
+
+</p><p n="6.70"> The boat fled in long, slewing swoops. Bogard looked quietly astern, at the scudding sea,
+the sky.
+
+</p><p n="6.71">"My God!" he thought. "Can you beat it? Can you beat it?"
+
+</p><p n="6.72">The boy came back;
+Bogard turned to him a face the color of dirty paper. "All right now," the boy said. "Not Kiel. Nearer place,
+hunting probably just as good. Ronnie says he knows you will understand." He was tugging at his pocket.
+He brought out a bottle. "Here. Haven't forgot last night. Do the same for you. Good for the stomach,
+eh?"
+
+</p><p n="6.73">Bogard drank, gulping--a big one. He extended the bottle, but the boy refused. "Never touch it
+on duty," he said. "Not like you chaps. Tame here."
+
+</p><p n="6.74">The boat fled on. The sun was already down
+the west. But Bogard had lost all count of time, of distance. Ahead he could see white seas through the
+round eye opposite Ronnie's face, and Ronnie's hand on the wheel and the granitelike jut of his profiled jaw
+and the dead upside-down pipe. The boat fled on.
+
+</p><p n="6.75">Then the boy leaned and touched his shoulder.
+He half rose. The boy was pointing. The sun was reddish; against it, outside them and about two miles
+away, a vessel--a trawler, it looked like--at anchor swung a tall mast.
+
+</p><p n="6.76">"Lightship!" the boy shouted.
+"Theirs." Ahead Bogard could see a low, flat mole--the entrance to a harbor. "Channel!" the boy shouted.
+He swept his arm in both directions. "Mines!" His voice swept back on the wind. "Place filthy with them.
+All sides. Beneath us too. Lark, eh?"</p>
+</div1>
+<div1 type="section" n="7">
+<head>VII</head>
+
+<p n="7.1">Against the mole a fair surf was
+beating. Running before the seas now, the boat seemed to leap from one roller to the next; in the intervals
+while the screw was in the air the engine seemed to be trying to tear itself out by the roots. But it did not
+slow; when it passed the end of the mole the boat seemed to be standing almost erect on its rudder, like a
+sail-fish. The mole was a mile away. From the end of it little faint lights began to flicker like fireflies. The
+boy leaned. "Down," he said. "Machine guns. Might stop a stray."
+
+</p><p n="7.2">"What do I do?" Bogard
+shouted. "What can I do?"
+
+</p><p n="7.3">"Stout fellow! Give them hell, what? Knew you'd like
+it!"
+
+</p><p n="7.4">Crouching, Bogard looked up at the boy, his face wild. "I can handle the machine
+gun!"
+
+</p><p n="7.5">"No need," the boy shouted back. "Give them first innings. Sporting. Visitors, eh?" He was
+looking forward. "There she is. See?" They were in the harbor now, the basin opening before them.
+Anchored in the channel was a big freighter. Painted midships of the hull was a huge Argentine flag. "Must
+get back to stations!" the boy shouted down to him. Then at that moment Ronnie spoke for the first time.
+The boat was hurtling along now in smoother water. Its speed did not slacken and Ronnie did not turn his
+head when he spoke. He just swung his jutting jaw and the clamped cold pipe a little, and said from the
+side of his mouth a single word:
+
+</p><p n="7.6">"Beaver."
+
+</p><p n="7.7">The boy, stooped over what he had called his
+gadget, jerked up, his expression astonished and outraged. Bogard also looked forward and saw Ronnie's
+arm pointing to starboard. It was a light cruiser at anchor a mile away. She had basket masts, and as he
+looked a gun flashed from her after turret. "Oh, damn!" the boy cried. "Oh, you putt! Oh, confound you,
+Ronnie! Now I'm three down!" But he had already stooped again over his gadget, his face bright and empty
+and alert again; not sober; just calm, waiting. Again Bogard looked forward and felt the boat pivot on its
+rudder and head directly for the freighter at terrific speed, Ronnie now with one hand on the wheel and the
+other lifted and extended at the height of his head.
+
+</p><p n="7.8">But it seemed to Bogard that the hand would
+never drop. He crouched, not sitting, watching with a kind of quiet horror the painted flag increase like a
+moving picture of a locomotive taken from between the rails. Again the gun crashed from the cruiser
+behind them, and the freighter fired point-blank at them from its poop. Bogard heard neither
+shot.
+
+</p><p n="7.9">"Man, man!" he shouted. "For God's sake!"
+
+</p><p n="7.10">Ronnie's hand dropped. Again the boat
+spun on its rudder. Bogard saw the bow rise, pivoting; he expected the hull to slam broadside on into the
+ship. But it didn't. It shot off on a long tangent. He was waiting for it to make a wide sweep, heading
+seaward, putting the freighter astern, and he thought of the cruiser again. "Get a broadside, this time, once
+we clear the freighter," he thought. Then he remembered the freighter, the torpedo, and he looked back
+toward the freighter to watch the torpedo strike, and saw to his horror that the boat was now bearing down
+on the freighter again, in a skidding turn. Like a man in a dream, he watched himself rush down upon the
+ship and shoot past under her counter, still skidding, close enough to see the faces on her decks. "They
+missed and they are going to run down the torpedo and catch it and shoot it again," he thought
+idiotically.
+
+</p><p n="7.11">So the boy had to touch his shoulder before he knew he was behind him. The boy's
+voice was quite calm: "Under Ronnie's seat there. A bit of a crank handle. If you'll just hand it to me--"
+
+</p><p n="7.12">He found the crank. He passed it back; he was thinking dreamily: "Mac would say they had a
+telephone on board." But he didn't look at once to see what the boy was doing with it, for in that still and
+peaceful horror he was watching Ronnie, the cold pipe rigid in his jaw, hurling the boat at top speed round
+and round the freighter, so near that he could see the rivets in the plates. Then he looked aft, his face wild,
+importunate, and he saw what the boy was doing with the crank. He had fitted it into what was obviously a
+small windlass low on one flank of the tube near the head. He glanced up and saw Bogard's face. "Didn't
+go that time!" he shouted cheerfully.
+
+</p><p n="7.13">"Go?" Bogard shouted. "It didn't-- The torpedo--"
+
+</p><p n="7.14">The boy and one of the seamen were quite busy, stooping over the windlass and the tube. "No.
+Clumsy. Always happening. Should think clever chaps like engineers-- Happens, though. Draw her in and
+try her again."
+
+</p><p n="7.15">"But the nose, the cap!" Bogard shouted. "It's still in the tube, isn't it? It's all right,
+isn't it?"
+
+</p><p n="7.16">"Absolutely. But it's working now. Loaded. Screw's started turning. Get it back and drop it
+clear. If we should stop or slow up it would overtake us. Drive back into the tube. Bingo!
+What?"
+
+</p><p n="7.17">Bogard was on his feet now, turned, braced to the terrific merry-go-round of the boat. High
+above them the freighter seemed to be spinning on her heel like a trick picture in the movies. "Let me have
+that winch!" he cried.
+
+</p><p n="7.18">"Steady!" the boy said. "Mustn't draw her back too fast. Jam her into the
+head of the tube ourselves. Same bingo! Best let us. Every cobbler to his last, what?"
+
+</p><p n="7.19">"Oh, quite,"
+Bogard said. "Oh, absolutely." It was like someone else was using his mouth. He leaned, braced, his hands
+on the cold tube, beside the others. He was hot inside, but his outside was cold. He could feel all his flesh
+jerking with cold as he watched the blunt, grained hand of the seaman turning the windlass in short, easy,
+inch-long arcs, while at the head of the tube the boy bent, tapping the cylinder with a spanner, lightly, his
+head turned with listening, delicate and deliberate as a watchmaker. The boat rushed on in those furious,
+slewing turns. Bogard saw a long, drooping thread loop down from somebody's mouth, between his hands,
+and he found that the thread came from his own mouth.
+
+</p><p n="7.20">He didn't hear the boy speak, nor notice
+when he stood up. He just felt the boat straighten out, flinging him to his knees beside the tube. The
+seaman had gone back to the stern and the boy stooped again over his gadget. Bogard knelt now, quite sick.
+He did not feel the boat when it swung again, nor hear the gun from the cruiser which had not dared to fire
+and the freighter which had not been able to fire, firing again. He did not feel anything at all when he saw
+the huge, painted flag directly ahead and increasing with locomotive speed, and Ronnie's lifted hand drop.
+But this time he knew that the torpedo was gone; in pivoting and spinning this time the whole boat seemed
+to leave the water; he saw the bow of the boat shoot skyward like the nose of a pursuit ship going into a
+wingover. Then his outraged stomach denied him. He saw neither the geyser nor heard the detonation as he
+sprawled over the tube. He felt only a hand grasp him by the slack of his coat, and the voice of one of the
+seamen: "Steady all, sir. I've got you."</p>
+</div1>
+<div1 type="section" n="8">
+<head>VIII</head>
+
+<p n="8.1">A voice roused him, a hand.
+He was half sitting in the narrow starboard runway, half lying across the tube. He had been there for quite a
+while; quite a while ago he had felt someone spread a garment over him. But he had not raised his head.
+"I'm all right," he had said. "You keep it."
+
+</p><p n="8.2">"Don't need it," the boy said. "Going home
+now."
+
+</p><p n="8.3">"I'm sorry I--" Bogard said.
+
+</p><p n="8.4">"Quite. Confounded shallow boats. Turn any stomach
+until you get used to them. Ronnie and I both, at first. Each time. You wouldn't believe it. Believe human
+stomach hold so much. Here." It was the bottle. "Good drink. Take enormous one. Good for
+stomach."
+
+</p><p n="8.5">Bogard drank. Soon he did feel better, warmer. When the hand touched him later, he
+found that he had been asleep.
+
+</p><p n="8.6">It was the boy again. The pea-coat was too small for him; shrunken,
+perhaps. Below the cuffs his long, slender, girl's wrists were blue with cold. Then Bogard realized what the
+garment was that had been laid over him. But before Bogard could speak, the boy leaned down,
+whispering; his face was gleeful: "He didn't notice!"
+
+</p><p n="8.7">"What?"
+
+</p><p n="8.8">"Ergenstrasse! He didn't
+notice that they had shifted her. Gad, I'd be just one down, then." He watched Bogard's face with bright,
+eager eyes. "Beaver, you know. I say. Feeling better, eh?"
+
+</p><p n="8.9">"Yes," Bogard said, "I am."
+
+</p><p n="8.10">"He
+didn't notice at all. Oh, gad! Oh, Jove!"
+
+</p><p n="8.11">Bogard rose and sat on the tube. The entrance to the harbor
+was just ahead; the boat had slowed a little. It was just dusk. He said quietly: "Does this often happen?"
+The boy looked at him. Bogard touched the tube. "This. Failing to go out."
+
+</p><p n="8.12">"Oh, yes. Why they put
+the windlass on them. That was later. Made first boat; whole thing blew up one day. So put on windlass."
+
+
+</p><p n="8.13">"But it happens sometimes, even now? I mean, sometimes they blow up, even with the
+windlass?"
+
+</p><p n="8.14">"Well, can't say, of course. Boats go out. Not come back. Possible. Not ever know, of
+course. Not heard of one captured yet, though. Possible. Not to us, though. Not yet."
+
+</p><p n="8.15">"Yes," Bogard
+said. "Yes." They entered the harbor, the boat moving still fast, but throttled now and smooth, across the
+dusk-filled basin. Again the boy leaned down, his voice gleeful.
+
+</p><p n="8.16">"Not a word, now!" he hissed.
+"Steady all!" He stood up; he raised his voice: "I say, Ronnie." Ronnie did not turn his head, but Bogard
+could tell that he was listening. "That Argentine ship was amusing, eh? In there. How do you suppose it got
+past us here? Might have stopped here as well. French would buy the wheat." He paused, 
+diabolical--Machiavelli 
+with the face of a strayed angel. "I say. How long has it been since we had a strange ship in
+here? Been months, eh?" Again he leaned, hissing. "Watch, now!" But Bogard could not see Ronnie's head
+move at all. "He's looking, though!" the boy whispered, breathed. And Ronnie was looking, though his
+head had not moved at all. Then there came into view, in silhouette against the dusk-filled sky, the vague,
+basket-like shape of the interned vessel's foremast. At once Ronnie's arm rose, pointing; again he spoke
+without turning his head, out of the side of his mouth, past the cold, clamped pipe, a single
+word:
+
+</p><p n="8.17">"Beaver."
+
+</p><p n="8.18">The boy moved like a released spring, like a heeled dog freed. "Oh, damn
+you!" he cried. "Oh, you putt! It's the Ergenstrasse! Oh, confound you! I'm just one down now!" He had
+stepped in one stride completely over Bogard, and he now leaned down over Ronnie. "What?" The boat
+was slowing in toward the wharf, the engine idle. "Aren't I, Ronnie? Just one down now?"
+
+</p><p n="8.19">The
+boat drifted in; the seaman had again crawled forward onto the deck. Ronnie spoke for the third and last
+time. "Right," he said.</p>
+</div1>
+<div1 type="section" n="9">
+<head>IX</head>
+
+<p n="9.1">"I want," Bogard said, "a case of Scotch. The
+best we've got. And fix it up good. It's to go to town. And I want a responsible man to deliver it."
+
+</p><p n="9.2">
+The responsible man came. "This is for a child," Bogard said, indicating the package. "You'll find him in
+the Street of the Twelve Hours, somewhere near the Café Twelve Hours. He'll be in the gutter.
+You'll know him. A child about six feet long. Any English M. P. will show him to you. If he is asleep, don't
+wake him. Just sit there and wait until he wakes up. Then give him this. Tell him it is from Captain
+Bogard."</p>
+</div1>
+<div1 type="section" n="10">
+<head>X</head>
+
+<p n="10.1">About a month later a copy of the English Gazette which had
+strayed onto an American aerodrome carried the following item in the casualty
+lists:
+
+</p><p n="10.2"><q>MISSING: Torpedo Boat XOOI. 
+<app><lem wit="first-ed">Midshipmen</lem><rdg wit="reader">Midshipmen</rdg><rdg wit="SEP">Ensigns</rdg></app> R. Boyce Smith and L. C. W. Hope, R. N. R., 
+<app><lem wit="first-ed">Boatswain's</lem><rdg wit="reader">Boatswain's</rdg><rdg wit="SEP">Machinist's</rdg></app> Mate Burt and 
+<app><lem wit="first-ed">Able Seaman Reeves,</lem><rdg wit="SEP">Torpedo-man 
+Reeves,</rdg><rdg wit="reader">Able Seaman Reeves.</rdg></app> Channel Fleet, Light
+Torpedo Division. Failed to return from coast patrol duty.</q>
+
+</p><p n="10.3">Shortly after that the American Air
+Service headquarters also issued a bulletin:
+
+</p><p n="10.4"><q>For extraordinary valor over and beyond the
+routine of duty, Captain H. S. Bogard, with his crew, composed of Second Lieutenant Darrel McGinnis and
+Aviation Gunners Watts and Harper, on a daylight raid and without scout protection, destroyed with bombs
+an ammunition depot several miles behind the enemy's lines. From here, beset by enemy aircraft in
+superior numbers, these men proceeded with what bombs remained to the enemy's corps headquarters at
+<app><lem wit="first-ed">Blank</lem><rdg wit="reader">Blank</rdg><rdg wit="SEP">----</rdg></app> and partially demolished this
+château, and then returned safely without loss of a man.</q>
+
+</p><p n="10.5">And regarding which
+exploit, it might have added, had it failed and had Captain Bogard come out of it alive, he would
+have been immediately and thoroughly court-martialed.
+
+</p><p n="10.6">Carrying his remaining two bombs, he had
+dived the Handley-Page at the château where the generals sat at lunch, until McGinnis, at the toggles
+below him, began to shout at him, before he ever signaled. He didn't signal until he could discern
+separately the slate tiles of the roof. Then his hand dropped and he zoomed, and he held the aeroplane so,
+in its wild snarl, his lips parted, his breath hissing, thinking: "God! God! If they were all there--all the
+generals, the admirals, the presidents and the kings--theirs, ours--all of them."</p>
+</div1>
+</body>
+</text>
+</TEI>
